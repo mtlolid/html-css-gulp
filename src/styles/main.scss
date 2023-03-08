@@ -1,0 +1,23 @@
+@import './common/__reset';
+@import './common/__header';
+@import './common/__steps';
+@import './common/__peoples';
+@import './common/__photos';
+@import './common/__search';
+@import './common/__footer';
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+body{
+    font-family: 'Montserrat';
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    width: 99%;
+    border: 2px red solid;
+}
